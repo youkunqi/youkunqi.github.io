@@ -8,27 +8,27 @@ redirect_from:
 ---
 
 
-Selected Publications 
+教育经历
 ======
+- 2016.04-2020.03, 岛根大学建筑学专业本科, 学士 
+- 2020.04-2022.03, 筑波大学城乡规划学专业研究生, 硕士
+- 2022.04-至今, 京都大学建筑学专业博士研究生
 
 
-
-Service
+科研方向
 ======
-Journal Reviewer: Electronics Letters  
-Conference Reviewer: CHI 2023, RO-MAN 2024, HAI 2024, HRI 2025
+1. 养老设施设计规划
+2. 环境行为学
+3. 日本介护保险制度
 
 
-<!-- Selected Awards
+主要学术论文
 ======
-- NITORI宜得利国际奖学金基金会奖学金（筑波大学仅有2名学生获得，120万日元），2021
-- Rotari罗大利米山纪念奖学金学会奖学金（岛根大学仅有2名学生获得，120万日元），2019
-- JESS留学生奖学金（60万日元），2018
+日本期刊论文:
+
+日本会议论文:
 
 
-Education
+学术兼职
 ======
-- 京都大学-博士-建筑学  （）
-- (2017.9-2020.6) 硕士, Zhejiang University, Hangzhou, China
-- (2013.9-2017.7) 学士, 岛根大学, Maanshan, China -->
-
+日本建筑学会会员

@@ -24,7 +24,7 @@ author:
   avatar           : "profile.jpg"
   name             : "尤 琨琦 (YOU Kunqi)"
   pronouns         : # example: "she/her"  
-  bio              : "京都大学建筑学博士生,  研究方向： 养老设施规划设计"
+  bio              : "京都大学建筑学博士生"
   location         : "日本京都"
   employer         : # "京都大学"
   uri              : # URL
@@ -227,60 +227,60 @@ collections:
 
 
 # These settings control how pages and collections are included in the site
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+# defaults:
+#   # _posts
+#   - scope:
+#       path: ""
+#       type: posts
+#     values:
+#       layout: single
+#       author_profile: true
+#       read_time: true
+#       comments: true
+#       share: true
+#       related: true
+#   # _pages
+#   - scope:
+#       path: ""
+#       type: pages
+#     values:
+#       layout: single
+#       author_profile: true
+#   # _teaching
+#   - scope:
+#       path: ""
+#       type: teaching
+#     values:
+#       layout: single
+#       author_profile: true
+#       share: true
+#       comments: true
+#   # _publications
+#   - scope:
+#       path: ""
+#       type: publications
+#     values:
+#       layout: single
+#       author_profile: true
+#       share: true
+#       comments: true
+#   # _portfolio
+#   - scope:
+#       path: ""
+#       type: portfolio
+#     values:
+#       layout: single
+#       author_profile: true
+#       share: true
+#       comment: true
+#   # _talks
+#   - scope:
+#       path: ""
+#       type: talks
+#     values:
+#       layout: talk
+#       author_profile: true
+#       share: true
 
 
 # Sass/SCSS
