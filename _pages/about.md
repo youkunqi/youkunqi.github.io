@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+I am a PhD candidate in the [gradudate school of Informatics](https://www.i.kyoto-u.ac.jp/en/) at [Kyoto University](https://www.kyoto-u.ac.jp/en)
+
 
 教育经历
 ======
