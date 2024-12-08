@@ -1,13 +1,11 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: # "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-I am a PhD candidate in the [gradudate school of Informatics](https://www.i.kyoto-u.ac.jp/en/) at [Kyoto University](https://www.kyoto-u.ac.jp/en), supported by Japanese Government (MEXT) Scholarship. I am working in the [Human-Robot Interaction Lab](https://www.robot.soc.i.kyoto-u.ac.jp/en/), supervised by Professor [Takayuki Kanda](https://scholar.google.com/citations?hl=en&user=BL9EACgAAAAJ). My research mainly focuses on social robotics, and human-robot interaction.
 
 
 Selected Publications 
@@ -39,7 +37,7 @@ Selected Awards
 
 Education
 ======
-- (2022.4-Present) PhD student, Kyoto University, Kyoto, Japan
-- (2017.9-2020.6) M.S, Zhejiang University, Hangzhou, China
-- (2013.9-2017.7) B.S, Anhui University of Technology, Maanshan, China
+- 京都大学-博士-建筑学  （）
+- (2017.9-2020.6) 硕士, Zhejiang University, Hangzhou, China
+- (2013.9-2017.7) 学士, 岛根大学, Maanshan, China
 
