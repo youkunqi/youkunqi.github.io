@@ -1,13 +1,11 @@
 ---
 permalink: /
-title: # "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+# title: # "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-I am a PhD candidate in the [gradudate school of Informatics](https://www.i.kyoto-u.ac.jp/en/) at [Kyoto University](https://www.kyoto-u.ac.jp/en)
 
 
 教育经历
