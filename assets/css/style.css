@@ -13,75 +13,72 @@
     display: flex; /* 使用 Flexbox 布局 */
     justify-content: space-between; /* 子元素均匀分布 */
     align-items: flex-start; /* 子元素顶部对齐 */
-    margin-bottom: 20px;
-    padding: 15px;
+    margin-bottom: 20px; /* 每个条目间距 */
+    padding: 15px; /* 内边距 */
     border-left: 3px solid #00ffff; /* 左侧蓝色边框 */
-    background-color: #ffffff; /* 背景颜色 */
+    background-color: #ffffff; /* 背景颜色为白色 */
+    border-radius: 10px; /* 添加圆角 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 为每个条目添加阴影 */
   }
   
   .text-container {
-    flex: 3; /* 文字部分占 3/4 */
+    flex: 3; /* 文字部分占 3/4 宽度 */
     margin-right: 20px; /* 与图片保持距离 */
-    overflow-wrap: break-word; /* 自动换行，防止内容超出 */
+    overflow-wrap: break-word; /* 自动换行，防止文字内容超出 */
   }
   
   .text-container h3 {
-    font-size: 1.2em;
-    margin: 0 0 10px;
-    color: #333;
-    line-height: 1.5; /* 增加行高，增强可读性 */
+    font-size: 1.2em; /* 标题字体大小 */
+    margin: 0 0 10px; /* 标题与下面文字的间距 */
+    color: #333; /* 标题颜色 */
+    line-height: 1.5; /* 增加行高 */
   }
   
   .text-container p {
-    margin: 5px 0;
-    font-size: 0.9em;
-    color: #555;
-  }
-  
-  .text-container .subtitle {
-    font-size: 0.95em;
-    color: #666;
-    line-height: 1.5; /* 行间距设置为 1.5 */
-    margin-bottom: 10px;
+    margin: 5px 0; /* 段落上下间距 */
+    font-size: 0.9em; /* 段落文字大小 */
+    color: #555; /* 段落文字颜色 */
   }
   
   .text-container em {
-    font-style: italic;
-    color: #777;
+    font-style: italic; /* 斜体 */
+    color: #777; /* 浅灰色文字 */
   }
   
   .links {
-    margin-top: 10px;
+    margin-top: 10px; /* 按钮与文字内容的间距 */
   }
   
   .button {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: white;
-    color: #333;
-    text-decoration: none;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 0.9em;
-    font-weight: bold;
-    transition: all 0.3s ease;
+    display: inline-block; /* 按钮以块状显示 */
+    padding: 8px 16px; /* 按钮内部文字与边框的间距 */
+    background-color: white; /* 按钮背景颜色为白色 */
+    color: #333; /* 按钮文字颜色 */
+    text-decoration: none; /* 移除文字下划线 */
+    border: 1px solid #ccc; /* 按钮边框为浅灰色 */
+    border-radius: 5px; /* 按钮圆角 */
+    font-size: 0.9em; /* 按钮文字大小 */
+    font-weight: bold; /* 按钮文字加粗 */
+    transition: all 0.3s ease; /* 增加平滑过渡效果 */
   }
-  
+
   .button:hover {
-    background-color: #f0f0f0;
-    border-color: #999;
-    color: #000;
+    background-color: #f0f0f0; /* 鼠标悬浮时的背景颜色 */
+    border-color: #999; /* 鼠标悬浮时边框颜色变深 */
+    color: #000; /* 鼠标悬浮时文字颜色变为黑色 */
   }
-  
+
   .image-container {
-    flex: 1; /* 图片部分占 1/4 */
+    flex: 1; /* 图片部分占 1/4 宽度 */
     max-width: 200px; /* 限制图片最大宽度 */
+    display: flex; /* 确保图片容器内容居中 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
   }
-  
+
   .image-container img {
     width: 100%; /* 图片宽度占满容器 */
     height: auto; /* 保持图片比例 */
-    border-radius: 5px; /* 图片圆角 */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
+    border-radius: 10px; /* 图片圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 为图片添加阴影 */
   }
-  
