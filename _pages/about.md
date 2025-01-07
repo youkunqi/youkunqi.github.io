@@ -30,6 +30,8 @@ redirect_from:
 
 
 主要学术论文
+======
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -70,7 +72,7 @@ redirect_from:
   <div class="pub-item">
     <h3>山口県阿武町における2015年介護保健制度改正後の高齢者福祉施設の取り組みと利用実態</h3>
     <p><strong>尤琨琦 *</strong>, 三島幸子, 山本幸子, 細田智久</p>
-    <p><em>日本建築学会学術講演梗概集, 2020</em></p>
+    <p><em>日本建築学会学術講演梗概集, 2020, 679-680</em></p>
     <div class="links">
       <a href="files/202009.pdf" class="button" target="_blank">论文</a>
     </div>
@@ -78,14 +80,12 @@ redirect_from:
 
   <div class="pub-item">
     <h3>介護保険制度改正による高齢者福祉施設の整備運営体制と利用特性の経年変化</h3>
-    <p>三島幸子, <strong>尤琨琦 *</strong>, 山本幸子, 細田智久</p>
+    <p>三島幸子 *, <strong>尤琨琦 </strong>, 山本幸子, 細田智久</p>
     <p><em>日本建築学会中国支部研究報告書, 2020</em></p>
     <div class="links">
       <a href="files/202003.pdf" class="button" target="_blank">论文</a>
     </div>
   </div>
-
-  <p>* 通讯作者</p>
 
 </div>
 
