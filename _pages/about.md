@@ -51,9 +51,6 @@ redirect_from:
     <div class="links">
       <a href="files/202501.pdf" class="button" target="_blank">论文</a>
     </div>
-    <div class="image-content">
-      <img src="images/202501.png" alt="示例图片" />
-    </div>
   </div>
 
   <div class="pub-item">
@@ -62,9 +59,6 @@ redirect_from:
     <p><em>日本建築学会計画系論文集, 2024, 89(820): 1009-1019</em></p>
     <div class="links">
       <a href="files/202406.pdf" class="button" target="_blank">论文</a>
-    </div>
-    <div class="image-content">
-      <img src="images/202406.png" alt="示例图片" />
     </div>
   </div>
 
@@ -76,21 +70,12 @@ redirect_from:
     <div class="links">
       <a href="files/202307.pdf" class="button" target="_blank">论文</a>
     </div>
-    <div class="image-content">
-      <img src="images/202307.png" alt="示例图片" />
-    </div>
   </div>
 
   <div class="pub-item">
     <h3>山口省阿部县在2015年介护保险制度修订后的养老设施的措施及使用现状的研究--以（综合型老年人设施）Iraoen为研究对象</h3>
     <p><strong>尤琨琦 *</strong>, 三島幸子, 山本幸子, 細田智久</p>
     <p><em>日本建築学会学術講演梗概集, 2020, 679-680</em></p>
-    <div class="links">
-      <a href="files/202009.pdf" class="button" target="_blank">论文</a>
-    </div>
-    <!-- <div class="image-content">
-      <img src="images/202501.png" alt="示例图片" />
-    </div> -->
   </div>
 
   <div class="pub-item">
@@ -99,9 +84,6 @@ redirect_from:
     <p><em>日本建築学会中国支部研究報告書, 2020</em></p>
     <div class="links">
       <a href="files/202003.pdf" class="button" target="_blank">论文</a>
-    </div>
-    <div class="image-content">
-      <img src="images/202003.png" alt="示例图片" />
     </div>
   </div>
 
