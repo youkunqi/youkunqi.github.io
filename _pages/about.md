@@ -78,7 +78,7 @@ redirect_from:
       <a href="files/202406.pdf" class="button" target="_blank">论文</a>
     </div>
     <div class="image-content">
-      <img src="images/202501.png" alt="示例图片" />
+      <img src="images/202406.png" alt="示例图片" />
     </div>
   </div>
 

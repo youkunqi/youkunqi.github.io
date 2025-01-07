@@ -4,69 +4,86 @@
  * Purpose: Styling for the publications page, including buttons, layout, and typography.
  */
 
- body {
+ .publications {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    line-height: 1.6;
-  }
-  
-  .publications {
-    display: flex;
-    flex-direction: column;
-    gap: 20px; /* 控制文章之间的间距 */
+    margin-top: 20px;
   }
   
   .pub-item {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start; /* 确保内容顶部对齐 */
-    gap: 15px; /* 控制内容和图片之间的间距 */
-    border-bottom: 1px solid #ddd; /* 为每篇文章添加分隔线 */
-    padding-bottom: 15px;
+    position: relative; /* 为图片的定位提供参考容器 */
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 3px solid #00ffff; /* 左侧蓝色边框 */
+    background-color: #ffffff; /* 背景颜色 */
+    border-radius: 10px; /* 圆角效果 */
+    overflow: hidden; /* 防止溢出内容 */
   }
   
-  .pub-item:last-child {
-    border-bottom: none; /* 移除最后一个条目的分隔线 */
-  }
-  
-  .pub-item .links {
-    margin-top: 10px; /* 为按钮和其他内容增加间距 */
+  .pub-item .content {
+    padding-right: 180px; /* 为图片预留空间，避免文字被覆盖 */
   }
   
   .pub-item h3 {
-    margin: 0;
     font-size: 1.2em;
+    margin: 0 0 10px;
     color: #333;
+    line-height: 1.5; /* 增加行高，增强可读性 */
   }
   
   .pub-item p {
     margin: 5px 0;
+    font-size: 0.9em;
     color: #555;
   }
   
-  .pub-item .image-content img {
-    max-width: 150px; /* 设置图片的最大宽度 */
-    height: auto;
-    border: 1px solid #ccc; /* 图片添加边框 */
-    border-radius: 5px; /* 添加圆角效果 */
+  .pub-item .subtitle {
+    font-size: 0.95em;
+    color: #666;
+    line-height: 1.5; /* 增加行间距 */
+    margin-bottom: 10px;
   }
   
-  .pub-item .image-content {
-    flex-shrink: 0; /* 确保图片不被压缩 */
-    margin-left: auto; /* 将图片推到右侧 */
+  .pub-item em {
+    font-style: italic;
+    color: #777;
+  }
+  
+  .links {
+    margin-top: 10px;
   }
   
   .button {
     display: inline-block;
-    background-color: #007BFF;
-    color: white;
+    padding: 8px 16px;
+    background-color: white;
+    color: #333;
     text-decoration: none;
-    padding: 8px 12px;
+    border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 0.9em;
+    font-weight: bold;
+    transition: all 0.3s ease;
   }
   
   .button:hover {
-    background-color: #0056b3;
+    background-color: #f0f0f0;
+    border-color: #999;
+    color: #000;
+  }
+  
+  /* 图片部分设置 */
+  .pub-item .image-content {
+    position: absolute;
+    top: 15px; /* 调整图片与顶部的距离 */
+    right: 15px; /* 调整图片与右侧的距离 */
+    max-width: 150px; /* 限制图片最大宽度 */
+    z-index: 1; /* 确保图片不会被其他内容覆盖 */
+  }
+  
+  .pub-item .image-content img {
+    width: 100%; /* 图片宽度适应容器 */
+    height: auto; /* 保持图片比例 */
+    border-radius: 5px; /* 图片圆角 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
   }
   
