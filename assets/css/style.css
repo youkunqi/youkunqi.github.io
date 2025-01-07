@@ -4,54 +4,74 @@
  * Purpose: Styling for the publications page, including buttons, layout, and typography.
  */
 
+ 
+ .publications {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+  }
   
-
-/* 外层容器样式 */
-.publication-item {
-    display: flex; /* 使用 Flexbox 布局 */
+  .pub-item {
+    display: flex; /* 使用 Flexbox 布局，支持图片和文字内容并排 */
     align-items: flex-start; /* 垂直方向顶部对齐 */
-    gap: 20px; /* 文本和图片之间的间距 */
-    border: 1px solid #ddd; /* 边框 */
-    padding: 15px; /* 内边距 */
-    border-radius: 10px; /* 圆角 */
+    gap: 20px; /* 图片和文字内容之间的间距 */
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 3px solid #00FFFF; /* 左侧蓝色边框 */
     background-color: #f9f9f9; /* 背景颜色 */
+    border-radius: 5px;
   }
   
-  /* 左侧文字内容样式 */
-  .text-content {
-    flex: 2; /* 占据更多空间 */
+  .pub-item h3 {
+    font-size: 1.2em;
+    margin: 0 0 5px;
+    color: #333;
   }
   
-  /* 右侧图片内容样式 */
-  .image-content {
-    flex: 1; /* 占据较少空间 */
-    max-width: 150px; /* 限制图片宽度 */
-    display: flex;
-    justify-content: center; /* 图片水平居中 */
-    align-items: center; /* 图片垂直居中 */
+  .pub-item p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
   }
   
-  /* 图片样式 */
-  .image-content img {
-    width: 100%; /* 图片宽度自适应 */
-    height: auto; /* 保持图片比例 */
-    border-radius: 10px; /* 图片圆角 */
+  .pub-item em {
+    font-style: italic;
+    color: #777;
   }
   
-  /* 按钮样式 */
+  .links {
+    margin-top: 10px;
+  }
+  
   .button {
     display: inline-block;
-    margin-top: 10px;
-    padding: 8px 12px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 0.9em;
-    font-weight: bold;
+    padding: 8px 16px; /* 按钮内部的间距 */
+    background-color: white; /* 背景颜色为白色 */
+    color: #333; /* 文字颜色为深灰色或黑色 */
+    text-decoration: none; /* 去掉下划线 */
+    border: 1px solid #ccc; /* 浅灰色边框 */
+    border-radius: 10px; /* 圆角设置 */
+    font-size: 0.9em; /* 字体大小 */
+    font-weight: bold; /* 字体加粗 */
+    text-align: center; /* 文本居中 */
+    transition: all 0.3s ease; /* 增加过渡效果 */
   }
   
   .button:hover {
-    background-color: #0056b3;
+    background-color: #f0f0f0; /* 鼠标悬浮时的背景颜色（浅灰） */
+    border-color: #999; /* 悬浮时边框颜色加深 */
+    color: #000; /* 文字颜色加深 */
+  }
+  
+  /* 图片样式 */
+  .pub-item img {
+    max-width: 150px; /* 限制图片最大宽度 */
+    height: auto; /* 保持图片比例 */
+    border-radius: 5px; /* 图片圆角，与外框协调 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影，提升视觉效果 */
+  }
+  
+  /* 文字内容样式 */
+  .pub-item .content {
+    flex: 1; /* 文字内容占据剩余空间 */
   }
   
