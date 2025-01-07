@@ -30,16 +30,65 @@ redirect_from:
 
 
 主要学术论文
-======
-[1]. 尤琨琦 *, 三浦研. 介護施設における要介護高齢者の就労的活動の実態と課題-全国の実施事業所へのアンケート・インタビュー調査に基づく分析[J]. 日本建築学会計画系論文集, 2024, 89(820): 1009-1019.
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-[2]. 尤琨琦 *, 三浦研. 通所介護施設における要介護高齢者の就労的活動のサポート体制と効果--A-QOAによる従来のレクリエーション活動との比較[J]. 日本建築学会計画系論文集, 2025, 90(827): 16-26.
+<div class="publications">
 
-[3]. 尤琨琦 *. 介護保健制度の導入と改正が高齢者通所介護施設の供給形態と立地に及ぼした影響--北関東三県を対象として[J]. 日本建築学会地域施設計画研究, 2023, 41: 377-386.
+  <div class="pub-item">
+    <h3>通所介護施設における要介護高齢者の就労的活動のサポート体制と効果</h3>
+    <p><strong>尤琨琦 *</strong>, 三浦研</p>
+    <p><em>日本建築学会計画系論文集, 2025, 90(827): 16-26</em></p>
+    <div class="links">
+      <a href="files/202501.pdf" class="button" target="_blank">论文</a>
+    </div>
+  </div>
 
-[4]. 尤琨琦 *, 三島幸子, 山本幸子, 細田智久. 山口県阿武町における2015年介護保健制度改正後の高齢者福祉施設の取り組みと利用実態--「いらお苑」を対象として[C]. 日本建築学会学術講演梗概集, 2020.
+  <div class="pub-item">
+    <h3>介護施設における要介護高齢者の就労的活動の実態と課題</h3>
+    <p><strong>尤琨琦 *</strong>, 三浦研</p>
+    <p><em>日本建築学会計画系論文集, 2024, 89(820): 1009-1019</em></p>
+    <div class="links">
+      <a href="files/202406.pdf" class="button" target="_blank">论文</a>
+    </div>
+  </div>
 
-[5]. 尤琨琦 *, 三島幸子, 山本幸子, 細田智久. 介護保険制度改正による高齢者福祉施設の整備運営体制と利用特性の経年変化--山口県阿武町を対象として[C]. 日本建築学会中国支部研究報告書, 2020.
+
+  <div class="pub-item">
+    <h3>介護保健制度の導入と改正が高齢者通所介護施設の供給形態と立地に及ぼした影響</h3>
+    <p><strong>尤琨琦 *</strong></p>
+    <p><em>日本建築学会地域施設計画研究, 2023, 41: 377-386</em></p>
+    <div class="links">
+      <a href="files/202307.pdf" class="button" target="_blank">论文</a>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <h3>山口県阿武町における2015年介護保健制度改正後の高齢者福祉施設の取り組みと利用実態</h3>
+    <p><strong>尤琨琦 *</strong>, 三島幸子, 山本幸子, 細田智久</p>
+    <p><em>日本建築学会学術講演梗概集, 2020</em></p>
+    <div class="links">
+      <a href="files/202009.pdf" class="button" target="_blank">论文</a>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <h3>介護保険制度改正による高齢者福祉施設の整備運営体制と利用特性の経年変化</h3>
+    <p>三島幸子, <strong>尤琨琦 *</strong>, 山本幸子, 細田智久</p>
+    <p><em>日本建築学会中国支部研究報告書, 2020</em></p>
+    <div class="links">
+      <a href="files/202003.pdf" class="button" target="_blank">论文</a>
+    </div>
+  </div>
+
+  <p>* 通讯作者</p>
+
+</div>
+
 
 
 学术兼职
