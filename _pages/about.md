@@ -77,6 +77,9 @@ redirect_from:
     <div class="links">
       <a href="files/202406.pdf" class="button" target="_blank">论文</a>
     </div>
+    <div class="image-content">
+      <img src="images/202501.jpg" alt="示例图片" />
+    </div>
   </div>
 
 
@@ -88,6 +91,9 @@ redirect_from:
     <div class="links">
       <a href="files/202307.pdf" class="button" target="_blank">论文</a>
     </div>
+    <div class="image-content">
+      <img src="images/202501.jpg" alt="示例图片" />
+    </div>
   </div>
 
   <div class="pub-item">
@@ -98,6 +104,9 @@ redirect_from:
     <div class="links">
       <a href="files/202009.pdf" class="button" target="_blank">论文</a>
     </div>
+    <div class="image-content">
+      <img src="images/202501.jpg" alt="示例图片" />
+    </div>
   </div>
 
   <div class="pub-item">
@@ -107,6 +116,9 @@ redirect_from:
     <p><em>日本建築学会中国支部研究報告書, 2020</em></p>
     <div class="links">
       <a href="files/202003.pdf" class="button" target="_blank">论文</a>
+    </div>
+    <div class="image-content">
+      <img src="images/202501.jpg" alt="示例图片" />
     </div>
   </div>
 
