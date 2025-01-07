@@ -10,40 +10,43 @@
   }
   
   .pub-item {
-    position: relative; /* 为图片的定位提供参考容器 */
+    display: flex; /* 使用 Flexbox 布局 */
+    justify-content: space-between; /* 子元素均匀分布 */
+    align-items: flex-start; /* 子元素顶部对齐 */
     margin-bottom: 20px;
     padding: 15px;
     border-left: 3px solid #00ffff; /* 左侧蓝色边框 */
     background-color: #ffffff; /* 背景颜色 */
     border-radius: 10px; /* 圆角效果 */
-    overflow: hidden; /* 防止溢出内容 */
   }
   
-  .pub-item .content {
-    padding-right: 180px; /* 为图片预留空间，避免文字被覆盖 */
+  .text-container {
+    flex: 3; /* 文字部分占 3/4 */
+    margin-right: 20px; /* 与图片保持距离 */
+    overflow-wrap: break-word; /* 自动换行，防止内容超出 */
   }
   
-  .pub-item h3 {
+  .text-container h3 {
     font-size: 1.2em;
     margin: 0 0 10px;
     color: #333;
     line-height: 1.5; /* 增加行高，增强可读性 */
   }
   
-  .pub-item p {
+  .text-container p {
     margin: 5px 0;
     font-size: 0.9em;
     color: #555;
   }
   
-  .pub-item .subtitle {
+  .text-container .subtitle {
     font-size: 0.95em;
     color: #666;
-    line-height: 1.5; /* 增加行间距 */
+    line-height: 1.5; /* 行间距设置为 1.5 */
     margin-bottom: 10px;
   }
   
-  .pub-item em {
+  .text-container em {
     font-style: italic;
     color: #777;
   }
@@ -71,17 +74,13 @@
     color: #000;
   }
   
-  /* 图片部分设置 */
-  .pub-item .image-content {
-    position: absolute;
-    top: 15px; /* 调整图片与顶部的距离 */
-    right: 15px; /* 调整图片与右侧的距离 */
-    max-width: 150px; /* 限制图片最大宽度 */
-    z-index: 1; /* 确保图片不会被其他内容覆盖 */
+  .image-container {
+    flex: 1; /* 图片部分占 1/4 */
+    max-width: 200px; /* 限制图片最大宽度 */
   }
   
-  .pub-item .image-content img {
-    width: 100%; /* 图片宽度适应容器 */
+  .image-container img {
+    width: 100%; /* 图片宽度占满容器 */
     height: auto; /* 保持图片比例 */
     border-radius: 5px; /* 图片圆角 */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */

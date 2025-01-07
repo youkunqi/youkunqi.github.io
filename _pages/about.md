@@ -29,20 +29,8 @@ redirect_from:
 
 科研项目
 ======
-<div class="publications">
-
-  <div class="pub-item">
-    <h3>高齢者の就労的活動を取り入れた介護事業所の計画手法</h3>
-    <p class="subtitle">[中]融入老年人（趣味性）有偿工作的养老设施的设计方法</p>
-    <p><strong>项目来源:</strong> 国立研究开发法人科学技术振兴机构 (JST), 次世代研究者挑战计划</p>
-    <p><strong>项目编号:</strong> JPMJSP2110</p>
-    <p><strong>项目周期:</strong> 2022-2025</p>
-    <p><strong>项目经费:</strong> 302万日元</p>
-    <p><strong>项目角色:</strong> 主持</p>
-  </div>
-
-</div>
-
+[1] 高齢者の就労的活動を取り入れた介護事業所の計画手法, 国立研究開発法人科学技術振興機構, 次世代研究者挑戦的研究プログラム, 项目号: JPMJSP2110, 2022-2025, 302万日元, 主持
+[中] 融入老年人（趣味性）有偿工作的养老设施的设计方法
 
 
 主要学术论文
@@ -104,9 +92,9 @@ redirect_from:
     <div class="links">
       <a href="files/202009.pdf" class="button" target="_blank">论文</a>
     </div>
-    <div class="image-content">
+    <!-- <div class="image-content">
       <img src="images/202501.png" alt="示例图片" />
-    </div>
+    </div> -->
   </div>
 
   <div class="pub-item">
@@ -118,7 +106,7 @@ redirect_from:
       <a href="files/202003.pdf" class="button" target="_blank">论文</a>
     </div>
     <div class="image-content">
-      <img src="images/202501.png" alt="示例图片" />
+      <img src="images/202003.png" alt="示例图片" />
     </div>
   </div>
 
