@@ -15,20 +15,20 @@
     gap: 20px; /* 文本和图片之间的间距 */
     margin-bottom: 20px;
     padding: 15px;
-    border: 1px solid #ddd; /* 添加边框 */
-    border-radius: 10px; /* 圆角效果 */
+    border-left: 3px solid #00FFFF; /* 左侧蓝色边框 */
     background-color: #f9f9f9; /* 背景颜色 */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
+    border-radius: 10px; /* 圆角效果 */
   }
   
   .pub-item .content {
-    flex: 3; /* 文字部分占据更多空间 */
+    flex: 1; /* 文字内容占据更多空间 */
   }
   
   .pub-item h3 {
     font-size: 1.2em;
     margin: 0 0 10px;
     color: #333;
+    line-height: 1.5; /* 增加行高，增强可读性 */
   }
   
   .pub-item p {
@@ -37,18 +37,25 @@
     color: #555;
   }
   
+  .pub-item .subtitle {
+    font-size: 0.95em;
+    color: #666;
+    line-height: 1.5; /* 增加行间距 */
+    margin-bottom: 10px;
+  }
+  
   .pub-item em {
     font-style: italic;
     color: #777;
   }
   
-  .pub-item .links {
+  .links {
     margin-top: 10px;
   }
   
   .button {
     display: inline-block;
-    padding: 6px 12px;
+    padding: 8px 16px;
     background-color: white;
     color: #333;
     text-decoration: none;
@@ -56,7 +63,6 @@
     border-radius: 5px;
     font-size: 0.9em;
     font-weight: bold;
-    margin-right: 10px;
     transition: all 0.3s ease;
   }
   
@@ -67,14 +73,16 @@
   }
   
   .pub-item .image-content {
-    flex: 1; /* 图片部分占据较小空间 */
     max-width: 150px; /* 限制图片最大宽度 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .pub-item .image-content img {
     width: 100%; /* 图片宽度适应容器 */
     height: auto; /* 保持图片比例 */
     border-radius: 5px; /* 图片圆角 */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 图片阴影 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
   }
   
