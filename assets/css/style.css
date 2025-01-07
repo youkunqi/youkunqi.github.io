@@ -7,21 +7,20 @@
  .publications {
     font-family: Arial, sans-serif;
     margin-top: 20px;
+    position: relative; /* 确保图片定位有效 */
   }
   
   .pub-item {
-    display: flex; /* 使用 Flexbox 布局 */
-    align-items: flex-start; /* 垂直方向顶部对齐 */
-    gap: 20px; /* 文本和图片之间的间距 */
-    margin-bottom: 20px;
+    display: block; /* 让文字内容从上到下排列 */
     padding: 15px;
     border-left: 3px solid #00FFFF; /* 左侧蓝色边框 */
     background-color: #f9f9f9; /* 背景颜色 */
     border-radius: 10px; /* 圆角效果 */
+    position: relative; /* 确保图片在右侧固定 */
   }
   
   .pub-item .content {
-    flex: 1; /* 文字内容占据更多空间 */
+    padding-right: 200px; /* 给图片留出空间 */
   }
   
   .pub-item h3 {
@@ -72,11 +71,12 @@
     color: #000;
   }
   
+  /* 图片部分设置 */
   .pub-item .image-content {
+    position: absolute;
+    top: 20px; /* 距离顶部 20px */
+    right: 20px; /* 距离右侧 20px */
     max-width: 150px; /* 限制图片最大宽度 */
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   
   .pub-item .image-content img {
