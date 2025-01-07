@@ -4,26 +4,30 @@
  * Purpose: Styling for the publications page, including buttons, layout, and typography.
  */
 
- 
  .publications {
     font-family: Arial, sans-serif;
     margin-top: 20px;
   }
   
   .pub-item {
-    display: flex; /* 使用 Flexbox 布局，支持图片和文字内容并排 */
+    display: flex; /* 使用 Flexbox 布局 */
     align-items: flex-start; /* 垂直方向顶部对齐 */
-    gap: 20px; /* 图片和文字内容之间的间距 */
+    gap: 20px; /* 文本和图片之间的间距 */
     margin-bottom: 20px;
-    padding: 10px;
-    border-left: 3px solid #00FFFF; /* 左侧蓝色边框 */
+    padding: 15px;
+    border: 1px solid #ddd; /* 添加边框 */
+    border-radius: 10px; /* 圆角效果 */
     background-color: #f9f9f9; /* 背景颜色 */
-    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
+  }
+  
+  .pub-item .content {
+    flex: 3; /* 文字部分占据更多空间 */
   }
   
   .pub-item h3 {
     font-size: 1.2em;
-    margin: 0 0 5px;
+    margin: 0 0 10px;
     color: #333;
   }
   
@@ -38,40 +42,39 @@
     color: #777;
   }
   
-  .links {
+  .pub-item .links {
     margin-top: 10px;
   }
   
   .button {
     display: inline-block;
-    padding: 8px 16px; /* 按钮内部的间距 */
-    background-color: white; /* 背景颜色为白色 */
-    color: #333; /* 文字颜色为深灰色或黑色 */
-    text-decoration: none; /* 去掉下划线 */
-    border: 1px solid #ccc; /* 浅灰色边框 */
-    border-radius: 10px; /* 圆角设置 */
-    font-size: 0.9em; /* 字体大小 */
-    font-weight: bold; /* 字体加粗 */
-    text-align: center; /* 文本居中 */
-    transition: all 0.3s ease; /* 增加过渡效果 */
+    padding: 6px 12px;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: all 0.3s ease;
   }
   
   .button:hover {
-    background-color: #f0f0f0; /* 鼠标悬浮时的背景颜色（浅灰） */
-    border-color: #999; /* 悬浮时边框颜色加深 */
-    color: #000; /* 文字颜色加深 */
+    background-color: #f0f0f0;
+    border-color: #999;
+    color: #000;
   }
   
-  /* 图片样式 */
-  .pub-item img {
+  .pub-item .image-content {
+    flex: 1; /* 图片部分占据较小空间 */
     max-width: 150px; /* 限制图片最大宽度 */
-    height: auto; /* 保持图片比例 */
-    border-radius: 5px; /* 图片圆角，与外框协调 */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影，提升视觉效果 */
   }
   
-  /* 文字内容样式 */
-  .pub-item .content {
-    flex: 1; /* 文字内容占据剩余空间 */
+  .pub-item .image-content img {
+    width: 100%; /* 图片宽度适应容器 */
+    height: auto; /* 保持图片比例 */
+    border-radius: 5px; /* 图片圆角 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 图片阴影 */
   }
   
