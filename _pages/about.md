@@ -64,6 +64,9 @@ redirect_from:
     <div class="links">
       <a href="files/202501.pdf" class="button" target="_blank">论文</a>
     </div>
+    <div class="image-content">
+      <img src="images/202501.jpg" alt="示例图片" />
+    </div>
   </div>
 
   <div class="pub-item">
