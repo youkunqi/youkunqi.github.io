@@ -58,3 +58,53 @@
     color: #000; /* 文字颜色加深 */
   }
   
+
+/* 外层容器样式 */
+.publication-item {
+    display: flex; /* 使用 Flexbox 布局 */
+    align-items: flex-start; /* 垂直方向顶部对齐 */
+    gap: 20px; /* 文本和图片之间的间距 */
+    border: 1px solid #ddd; /* 边框 */
+    padding: 15px; /* 内边距 */
+    border-radius: 10px; /* 圆角 */
+    background-color: #f9f9f9; /* 背景颜色 */
+  }
+  
+  /* 左侧文字内容样式 */
+  .text-content {
+    flex: 2; /* 占据更多空间 */
+  }
+  
+  /* 右侧图片内容样式 */
+  .image-content {
+    flex: 1; /* 占据较少空间 */
+    max-width: 150px; /* 限制图片宽度 */
+    display: flex;
+    justify-content: center; /* 图片水平居中 */
+    align-items: center; /* 图片垂直居中 */
+  }
+  
+  /* 图片样式 */
+  .image-content img {
+    width: 100%; /* 图片宽度自适应 */
+    height: auto; /* 保持图片比例 */
+    border-radius: 10px; /* 图片圆角 */
+  }
+  
+  /* 按钮样式 */
+  .button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
