@@ -76,6 +76,9 @@ redirect_from:
     <h3>山口省阿部县在2015年介护保险制度修订后的养老设施的措施及使用现状的研究--以（综合型老年人设施）Iraoen为研究对象</h3>
     <p><strong>尤琨琦 *</strong>, 三島幸子, 山本幸子, 細田智久</p>
     <p><em>日本建築学会学術講演梗概集, 2020, 679-680</em></p>
+    <div class="links">
+      <a href="files/202009.pdf" class="button" target="_blank">论文</a>
+    </div>
   </div>
 
   <div class="pub-item">
