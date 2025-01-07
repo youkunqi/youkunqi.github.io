@@ -65,7 +65,7 @@ redirect_from:
       <a href="files/202501.pdf" class="button" target="_blank">论文</a>
     </div>
     <div class="image-content">
-      <img src="images/202501.jpg" alt="示例图片" />
+      <img src="images/202501.png" alt="示例图片" />
     </div>
   </div>
 
@@ -78,7 +78,7 @@ redirect_from:
       <a href="files/202406.pdf" class="button" target="_blank">论文</a>
     </div>
     <div class="image-content">
-      <img src="images/202501.jpg" alt="示例图片" />
+      <img src="images/202501.png" alt="示例图片" />
     </div>
   </div>
 
@@ -92,7 +92,7 @@ redirect_from:
       <a href="files/202307.pdf" class="button" target="_blank">论文</a>
     </div>
     <div class="image-content">
-      <img src="images/202501.jpg" alt="示例图片" />
+      <img src="images/202501.png" alt="示例图片" />
     </div>
   </div>
 
@@ -105,7 +105,7 @@ redirect_from:
       <a href="files/202009.pdf" class="button" target="_blank">论文</a>
     </div>
     <div class="image-content">
-      <img src="images/202501.jpg" alt="示例图片" />
+      <img src="images/202501.png" alt="示例图片" />
     </div>
   </div>
 
@@ -118,7 +118,7 @@ redirect_from:
       <a href="files/202003.pdf" class="button" target="_blank">论文</a>
     </div>
     <div class="image-content">
-      <img src="images/202501.jpg" alt="示例图片" />
+      <img src="images/202501.png" alt="示例图片" />
     </div>
   </div>
 
