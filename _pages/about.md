@@ -88,7 +88,6 @@ redirect_from:
       <a href="files/202002.pdf" class="button" target="_blank">论文</a>
     </div>
   </div>
-  *: 通讯作者
 </div>
 
 
