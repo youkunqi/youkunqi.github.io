@@ -85,7 +85,7 @@ redirect_from:
     <p>三島幸子 *, <strong>尤琨琦 </strong>, 山本幸子, 細田智久</p>
     <p><em>日本建築学会中国支部研究報告書, 2020</em></p>
     <div class="links">
-      <a href="files/202003.pdf" class="button" target="_blank">论文</a>
+      <a href="files/202002.pdf" class="button" target="_blank">论文</a>
     </div>
   </div>
 
