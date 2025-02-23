@@ -22,9 +22,9 @@ repository               : "youkunqi/youkunqi.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "尤 琨琦 (YOU Kunqi)"
+  name             : "尤 琨琦 (You, Kunqi)"
   pronouns         : # example: "she/her"  
-  bio              : "京都大学建筑学博士生"
+  bio              : "京都大学建筑学博士"
   location         : "日本京都"
   employer         : # "京都大学"
   uri              : # URL
@@ -44,7 +44,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "youkunqi"
+  github           : # "youkunqi"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
