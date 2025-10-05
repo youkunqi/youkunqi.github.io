@@ -49,6 +49,14 @@ redirect_from:
 </head>
 
 <div class="publications">
+  <div class="pub-item">
+    <h3>为需要护理的老人提供（趣味性）有偿工作活动场所之运营与环境设计的比较研究--以日托设施为例</h3>
+    <p><strong>尤琨琦 *</strong>, 三浦研</p>
+    <p><em>日本建築学会計画系論文集, 2025, 90(835): 1867-1878</em></p>
+    <div class="links">
+      <a href="files/202509.pdf" class="button" target="_blank">论文</a>
+    </div>
+  </div>
 
   <div class="pub-item">
     <h3>在日托设施中为需要护理的老人提供（趣味性）有偿工作活动所需的介护人员配置和开展效果的研究--基于A-QOA（行为观察学评价法）对该类活动与传统娱乐活动的比较</h3>
