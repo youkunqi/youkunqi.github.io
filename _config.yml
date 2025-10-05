@@ -22,9 +22,9 @@ repository               : "youkunqi/youkunqi.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "尤 琨琦 (You, Kunqi)"
+  name             : 尤 琨琦 (YOU Kunqi)
   pronouns         : # example: "she/her"  
-  bio              : "天津大学建筑学院讲师"
+  bio              : "天津大学建筑学院讲师，硕士生导师"
   location         : "中国天津"
   employer         : # "天津大学"
   uri              : https://arch.tju.edu.cn/info/1187/5211.htm
