@@ -54,7 +54,7 @@ redirect_from:
     <p><strong>尤琨琦 *</strong>, 三浦研</p>
     <p><em>日本建築学会計画系論文集, 2025, 90(835): 1867-1878</em></p>
     <div class="links">
-      <a href="files/202509.pdf" class="button" target="_blank">论文</a>
+      <a href="files/202510.pdf" class="button" target="_blank">论文</a>
     </div>
   </div>
 
