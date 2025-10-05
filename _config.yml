@@ -24,10 +24,10 @@ author:
   avatar           : "profile.jpg"
   name             : "尤 琨琦 (You, Kunqi)"
   pronouns         : # example: "she/her"  
-  bio              : "京都大学建筑学博士"
-  location         : "日本京都"
-  employer         : # "京都大学"
-  uri              : # URL
+  bio              : "天津大学建筑学院讲师"
+  location         : "中国天津"
+  employer         : # "天津大学"
+  uri              : https://arch.tju.edu.cn/info/1187/5211.htm
   email            : "youkunqi@outlook.com" 
 
   # Academic websites
